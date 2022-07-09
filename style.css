@@ -1,28 +1,29 @@
 body {
-    background-color: rgb(255, 237, 203);  
+    background-color: rgb(245, 245, 245);  
     font-family: Helvetica, Didot;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     
-    
-
 }
+
 .header {
    
     background-color:#1f2937;
     padding-top: 12px;
     justify-content: space-evenly;
     display: flex;
-    height: 500px;
+    height: 380px;
+    flex-shrink: 0;
+    
+    
 }
 .logo{
     font-size: 24px;
     font-weight:600;
     color: #F9FAF8;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 a, a:link, a:visited, a:hover, a:active{
@@ -57,7 +58,7 @@ ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .main-text {
@@ -101,8 +102,9 @@ button {
 }
 
 .info {
-    margin-top: 34px;
-    margin-bottom: 34px;
+    
+    margin-top: 28px;
+    margin-bottom: 28px;
     font: 36px;
     font-size: 36px;
     font-weight: bolder;
@@ -120,8 +122,9 @@ button {
 .borders{
     width: 150px;
     height: 150px;
-    border: 1px solid #3882F6;
+    border: 3px solid #3882F6;
     background-color: transparent;
+    border-radius: 8px;
     
 }
 
@@ -134,4 +137,74 @@ button {
 
 .line-up{
     width: 150px;
+}
+
+
+.quo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7Eb;
+    margin-top: 50px;
+    
+}
+
+.quote{
+    margin-top: 65px;
+    font-size: 36px;
+    color: #1F2937;
+    width: 825px;
+    font-style: italic;
+
+    
+}
+
+.thor {
+    margin-left: 350px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin-top: 60px;
+    margin-bottom: 60px ;
+    justify-content: center;
+    align-items: center;
+    gap:75px;
+    display: flex;
+    flex-direction: flex;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1100px;
+    height: 150px;
+}
+
+.time {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button2{
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 12px;
+    text-align: center;
+    margin: 8px, 8px;
+    padding-bottom: 10px;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color:rgb(245, 245, 245);
+    text-align: center;
+    padding: 40px;
+
 }
